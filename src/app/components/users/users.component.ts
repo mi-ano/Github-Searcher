@@ -13,11 +13,7 @@ export class UsersComponent implements OnInit {
   public searchMe = 'mi-ano';
   public githubUser: string;
 
-  users: Users ;
-  repository: Repos;
-  public searchRepo: string;
-  public resultCount = 12;
-  
+ 
   findUser(username) {
     this.githubUser = '';
     this.searchMe  = username;
