@@ -1,16 +1,1 @@
 /* You can add global styles to this file, and also import other style files */
-
-body{
-    background-image: url(./assets/git.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-.hi{
-    margin: 0;
-    padding:0;
-    font-size: 5em;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    text-align: center;
-    position: absolute;
-    color:goldenrod;
-}

@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { RoutingComponent } from './routing.component';
+import { GitBarComponent } from './git-bar.component';
 
-describe('RoutingComponent', () => {
-  let component: RoutingComponent;
-  let fixture: ComponentFixture<RoutingComponent>;
+describe('GitBarComponent', () => {
+  let component: GitBarComponent;
+  let fixture: ComponentFixture<GitBarComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ RoutingComponent ]
+      declarations: [ GitBarComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(RoutingComponent);
+    fixture = TestBed.createComponent(GitBarComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

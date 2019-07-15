@@ -1,0 +1,72 @@
+<div class="container-fluid">
+    <div class="row ">
+      <div class="col-md-12">
+        <app-search-form (getName)='findUser($event)'></app-search-form>
+      </div>
+    </div>
+    <div class="row profile">
+      <div class="col-6">
+        <div class="cards">
+          <div class="card-header">
+            <p class = "inline">Username: {{users.login}}</p>
+          </div>
+          <div class="card-body">
+            <div class="col-md-3 col-sm-12">
+              <img src="{{users.avatar_url}}" alt="avatar image" class="rounded-circle img-responsive">
+            </div>
+            <span class="profile_follows">
+                <span class="badge badge-primary">
+                <i class="fas fa-user"></i>Followers
+                <span class="spacing">{{users.followers}}</span>
+              </span>
+              <span class="badge badge-success">
+                <i class="fas fa-user"></i>Following
+                <span class="spacing">{{users.following}}</span>
+              </span>
+            </span>
+            <div class="col-md-7 col-sm-12">
+              <div *ngIf="users['name']">
+                <h4>{{users.name}}</h4>
+              </div>
+              <hr>
+              <p>{{users.bio}}</p>
+              <table>
+                <tr *ngIf="users.created_at">
+                  <td>Created On</td>
+                  <td>{{users.created_at | date}}</td>
+                </tr>
+                <tr>
+                  <td>Number of Repos</td>
+                  <td>{{users.public_repos}}</td>
+                </tr>
+              </table>
+              <p>
+                <a href="{{users.html_url}}" target="_blank"class="btn btn-primary btn-sm github_btn">View profile from Github</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-6">
+          <div *ngFor="let repository of userRepos.newRepo">
+            <div class="cards repocard">
+                <div class="card-header">
+  
+                  <h5 class = "card-title">
+                      {{repository.name}}
+                  </h5>
+                </div>
+               <div class="card-body">
+                    <p>
+                       {{repository.description}}
+                    </p>
+                    <p>
+                      {{repository.created_at | date}}
+                    </p>
+                    <a href="{{repository.html_url}}" target="_blank" class= "btn btn-primary btn-sm">View on Github</a>
+                </div>
+              </div>
+        </div>
+      </div>
+    </div>
+  </div>  

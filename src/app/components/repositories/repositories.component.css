@@ -1,0 +1,43 @@
+div.wrapper{
+    margin-top: 80px;
+}
+div.container-fluid{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+form.form-inline.ng-untouched.ng-pristine.ng-valid{
+        /* float: right; */
+        margin-bottom: 10px;
+}
+.searchtext{
+    padding-top:10px;
+    font-size: 14px;
+    color:#8c8b8b;
+}
+span.badge{
+    float: right;
+}
+i{
+    padding: 5px;
+}
+
+.inline{
+    display: inline;
+}
+h4.style2{
+    margin-top: 50px;
+    font-family: 'Great Vibes', cursive; 
+    text-align: center;
+    font-size: 36px;
+    color:#0BB6E4;
+}
+
+hr.style2 { 
+    margin-bottom: 60px;
+    border: 1px; 
+    height: 1px; 
+    background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+    background: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+    background: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+    background: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0); 
+  }
