@@ -38,5 +38,5 @@ export class UsersComponent implements OnInit {
     this.searchRepo = '';
     this.resultCount = 10;
   }
-
+}
 
