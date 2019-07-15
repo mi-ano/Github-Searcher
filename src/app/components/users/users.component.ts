@@ -10,9 +10,7 @@ import {Users} from '../../class/users/users';
 })
 export class UsersComponent implements OnInit {
 
-  public searchMe = 'mi-ano';
-  public githubUser: string;
-
+  
   users: Users ;
   repository: Repos;
   public searchRepo: string;
