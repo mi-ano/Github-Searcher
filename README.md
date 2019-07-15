@@ -17,7 +17,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ## Setup/Installation Requirements
 * Open your browser browser.
 * Load gitHub on your browser.
-* Search for Lorddoyo/.... repository.
+* Search for mi-ano/.... repository.
 * Fork the data onto your own personal repository
 * run 'ng install' on terminal
 * run 'ng serve' on terminal
