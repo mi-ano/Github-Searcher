@@ -21,7 +21,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 * Fork the data onto your own personal repository
 * run 'ng install' on terminal
 * run 'ng serve' on terminal
-* to access the live website,click on this url https://Lorddoyo.github.io/github/
+* to access the live website,click on this url https://github.com/mi-ano/Github-Searcher
 ## known bugs
 
 no bugs
