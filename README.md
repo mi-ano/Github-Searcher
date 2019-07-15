@@ -36,7 +36,7 @@ Angular CLI
 
 ## Support and contact details
 
-Contact me using my Email:johnkojo7777@gmail.com
+Contact me using my Email:ryanmiano68@gmail.com
 
 ### License
 MIT License  Copyright (c) 2019 **ADANO GODANA**
